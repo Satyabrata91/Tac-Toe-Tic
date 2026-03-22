@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(247, 207, 246);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hadding {
+  font-size: 80px;
+  color: rgb(180, 55, 143);
+}
+.brainware {
+  height: 70vh;
+  align-items: center;
+}
+.madam {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+  
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgb(0, 0, 0, 0.3);
+  font-size: 8vmin;
+  color: rgb(40, 35, 201);
+  background-color: aliceblue;
+  cursor: pointer;
+  
+}
+.box:hover{
+  background-color: rgb(145, 204, 204);
+}
+#reset_button {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: rgb(94, 181, 101);
+  color: aliceblue;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
+#new_button {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: rgb(67, 171, 91);
+  color: aliceblue;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  /* margin-top: 50px; */
+}
+#new_button:hover {
+  color: rgb(2, 80, 21);
+  background-color: aliceblue;
+}
+#reset_button:hover {
+  color: rgb(2, 80, 21);
+  background-color: aliceblue;
+}
+#massage {
+  color: rgb(24, 131, 40);
+  font-size: 10vmin;
+  align-items: center;
+}
+.satyabrata {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+.hide {
+  display: none;
+}
